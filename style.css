@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+background-image: url("pexels-andreea-ch-1076039.jpg");
+}
 main {
     display: flex;
     height: 100vh;

@@ -1,27 +1,27 @@
-const img = document.getElementById( 'img' );
-const buttons = document.getElementById( 'buttons' );
+let img = document.getElementById( 'img' );   /*poderia ser usado const*/
+let buttons = document.getElementById( 'buttons' );
 let colorIndex = 0;
 let intervalId = null;
 
-const trafficLight = ( event ) => {
+let trafficLight = ( event ) => {
     stopAutomatic();
     turnOn[event.target.id]();
 }
 
-const nextIndex = () => colorIndex = colorIndex < 2 ? ++colorIndex : 0;
+let nextIndex = () => colorIndex = colorIndex < 2 ? ++colorIndex : 0;
 
-const changeColor = () => {
+let changeColor = () => {
     const colors = ['red','yellow','green']
     const color = colors[ colorIndex ];
     turnOn[color]();
     nextIndex();
 }
 
-const stopAutomatic = () => {
+let stopAutomatic = () => {
     clearInterval ( intervalId );
 }
 
-const turnOn = {
+let turnOn = {
     'red':      () => img.src = 'vermelho.png',
     'yellow':   () => img.src = 'amarelo.png',
     'green':    () => img.src = 'verde.png',
