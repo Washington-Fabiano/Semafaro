@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 body{
-background-image: url("pexels-andreea-ch-1076039.jpg");
+background-image: url("imagens/semáfaros.jpg");
+background-position: center;
 }
 main {
     display: flex;
@@ -17,4 +18,34 @@ main {
 
 .button {
     width: 80px;
+    
+}
+#automatic {
+    background-image: linear-gradient(red, yellow, green);
+}
+
+#red {
+    background-color: red;
+    color:white
+}
+
+#yellow {
+    background-color: yellow;
+    
+}
+
+#green { 
+    background-color: green ;
+    color:white
+}
+
+footer{
+    text-align: center;
+    color: white;
+    margin-top: -3%;
+}
+footer > p > a {
+    text-decoration: none;
+    color: white;
+    
 }
