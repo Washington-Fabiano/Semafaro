@@ -1,4 +1,4 @@
-let img = document.getElementById( 'img' );   /*poderia ser usado const*/
+let img = document.getElementById( 'img' );   
 let buttons = document.getElementById( 'buttons' );
 let colorIndex = 0;
 let intervalId = null;
