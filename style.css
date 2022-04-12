@@ -9,7 +9,7 @@ background-position: center;
 }
 main {
     display: flex;
-    height: 100vh;
+    height: 90vh;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -18,7 +18,7 @@ main {
 
 .button {
     width: 80px;
-    
+
 }
 #automatic {
     background-image: linear-gradient(red, yellow, green);
@@ -31,10 +31,10 @@ main {
 
 #yellow {
     background-color: yellow;
-    
+
 }
 
-#green { 
+#green {
     background-color: green ;
     color:white
 }
@@ -47,6 +47,6 @@ footer{
 footer > p > a {
     text-decoration: none;
     color: white;
-    
+
 }
 
